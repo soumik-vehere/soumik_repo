@@ -2,7 +2,11 @@
 using namespace std;
 int main()
 {
-    cout<<"Hello world in C++"<<endl;
-    cout<<"Welcome to my world"<<endl;
+    int a, b;
+    cout << "Hello world in C++" << endl;
+    cout << "Enter two intergers: ";
+    cin >> a >> b;
+    int c = a + b;
+    cout << "Sum = " << c << endl;
     return 0;
 }
