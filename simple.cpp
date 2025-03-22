@@ -7,5 +7,8 @@ int main()
     cin >> a >> b;
     int c = a + b;
     cout << "Sum = " << c << endl;
+    c = a * b;
+    cout << "Product = " << c << endl;
+
     return 0;
 }
